@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Шестаков Алексей-9в</title>                                                    
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #17191e;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    main {
+      padding: 24px;
+    }
+
+    img {
+      width: min(320px, 85vw);
+      height: 400px;
+      object-fit: cover;
+      border-radius: 14px;
+      display: block;
+      margin: 0 auto 28px;
+    }
+
+    h1 {
+      font-size: clamp(28px, 6vw, 48px);
+      margin: 0 0 12px;
+    }
+
+    p {
+      font-size: 24px;
+      color: #bfc3cc;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="photo.jpg" alt="Фотография">
+    <h1>Шестаков Алексей</h1>
+    <p>9 В</p>
+  </main>
+</body>
+</html>
